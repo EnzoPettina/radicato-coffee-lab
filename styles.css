@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===== HEADER Y NAV =====*/
+header {
+    background-color: #3B2F2F;
+    color: #F5F3EE;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F5F3EE;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #D4A373;
+    transform: scale(1.1) translateY(-2px);
+}
+
+/*===== SECCION BIENVENIDA =====*/
+
+.bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #FFF8F0;       /* fondo cálido y suave */
+}
+
+.bienvenida h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3B2F2F;
+}
+
+.bienvenida p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    color: #5B4B3B;
+    line-height: 1.6;
+}
+
+.bienvenida img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.bienvenida img:hover {
+    transform: scale(1.05);
+}
+
+/*===== SECCION MENU =====*/
+
+.menu {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #F5F3EE;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.menu h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #3B2F2F;
+    margin-bottom: 1.5rem;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    font-family: 'Popins', sans-serif;
+    font-size: 1.1rem;
+    color: #3B2F2F;
+    background-color: #FFF;
+    margin: 0.8rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    transition: transform 0.4s ease, box shadow 0.4s;
+}
+.menu li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.menu strong {
+    color: #D4A373;
+    font-weight: 600;
+}
+
+/*===== CONTACTO =====*/
+
+.contacto {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #F5F3EE;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.contacto h2 {
+    font-family: 'Playfair Display', serif;
+    color: #3B2F2F;
+    margin-bottom: 1rem;
+}
+
+.contacto p {
+    font-family: 'Poppins', sans-serif;
+    color: #5C4B4B;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #3B2F2F;
+    font-weight: 600;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #D4A373;
+    box-shadow: 0 0 5px rgba(212,163,115,0.3);
+}
+
+button {
+    background-color: #3B2F2F;
+    color: #F5F3EE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #D4A373;
+    transform: scale(1.05);
+}
+
