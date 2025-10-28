@@ -128,6 +128,15 @@ nav a:hover {
     font-weight: 600;
 }
 
+.menu-img {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /*===== CONTACTO =====*/
 
 .contacto {
